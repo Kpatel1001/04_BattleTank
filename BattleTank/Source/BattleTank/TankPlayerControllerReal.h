@@ -24,6 +24,8 @@ public:
 private:
 
 	void AimTowardsCrosshair();
+
+	bool GetSightRayHitLocation(FVector& OutHitLocation) const;
 	
 	
 };
